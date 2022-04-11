@@ -1,0 +1,284 @@
+04:24:15 AM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+04:24:15 AM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000001AACF91D4E0>
+04:24:15 AM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000001AACF163DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+04:24:15 AM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+04:24:15 AM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: duplicate key value violates unique constraint "votantes_pkey"
+DETAIL:  Key (dni)=(1) already exists.
+, <class 'psycopg2.errors.UniqueViolation'>, <traceback object at 0x000001AACFB1BCC0>, se hizo rollback
+04:24:15 AM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000001AACF163DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+04:24:42 AM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+04:24:42 AM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000001E9989ED4E0>
+04:24:42 AM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000001E9982C3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+04:24:42 AM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+04:24:42 AM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+04:24:42 AM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000001E9982C3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+01:11:34 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+01:11:34 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x00000165FD1EFBB0>
+01:11:34 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x00000165FCAC3AB0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+01:11:34 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+01:11:34 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'psycopg2.extensions.cursor' object has no attribute 'exucute', <class 'AttributeError'>, <traceback object at 0x00000165FCBE3580>, se hizo rollback
+01:11:34 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x00000165FCAC3AB0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+01:11:59 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+01:11:59 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000001958AB6D330>
+01:11:59 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000001958A913AB0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+01:11:59 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+01:11:59 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: syntax error at or near "*"
+LINE 1: DELETE * FROM votantes
+               ^
+, <class 'psycopg2.errors.SyntaxError'>, <traceback object at 0x000001958B0E6D40>, se hizo rollback
+01:11:59 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000001958A913AB0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+01:12:21 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+01:12:21 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000002DDE256D330>
+01:12:21 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000002DDE2313AB0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+01:12:21 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+01:12:21 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+01:12:21 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000002DDE2313AB0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+01:13:44 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+01:13:44 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x0000018D8F56D330>
+01:13:44 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000018D8F313DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+01:13:44 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+01:13:44 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+01:13:44 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000018D8F313DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+01:15:12 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+01:15:12 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x0000021564F6FB80>
+01:15:12 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000021564D13AB0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+01:15:12 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+01:15:12 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'int' object does not support indexing, <class 'TypeError'>, <traceback object at 0x0000021564E33580>, se hizo rollback
+01:15:12 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000021564D13AB0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+01:16:31 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+01:16:32 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000002ACEA51D300>
+01:16:32 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000002ACE9DF3AB0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+01:16:32 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+01:16:32 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+01:16:32 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000002ACE9DF3AB0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:28:50 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:28:50 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000002149F91FB80>
+02:28:50 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000002149F1B3BC0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:28:50 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:28:50 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:28:50 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000002149F1B3BC0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:29:20 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:29:20 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x0000019DBBB1D300>
+02:29:20 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000019DBB3B3BC0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:29:20 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:29:20 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:29:20 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000019DBB3B3BC0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:32:01 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:32:01 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x0000022A4851D300>
+02:32:01 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000022A47D53BC0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:32:01 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:32:01 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:32:01 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000022A47D53BC0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:32:17 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:32:17 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000002F766BED300>
+02:32:17 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000002F7664C3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:32:17 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:32:17 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:32:17 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000002F7664C3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:32:28 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:32:28 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000002B9DA31D300>
+02:32:28 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000002B9D9BF3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:32:28 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:32:28 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:32:28 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000002B9D9BF3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:33:20 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:33:20 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x0000019C3411D300>
+02:33:20 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000019C33973DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:33:20 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:33:20 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:33:20 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000019C33973DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:34:09 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:34:09 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x0000015CBEFEFB80>
+02:34:09 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000015CBE8C3BC0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:34:09 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:34:09 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:34:09 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000015CBE8C3BC0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:34:09 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:34:09 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000015CBE8C3BC0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:34:09 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:34:09 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:34:09 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000015CBE8C3BC0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:34:35 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:34:35 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000002246AF1D300>
+02:34:35 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000002246A743DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:34:35 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:34:35 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:34:35 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000002246A743DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:35:20 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:35:20 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x0000021DFBF1D300>
+02:35:20 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000021DFB783DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:35:20 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:35:20 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:35:20 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000021DFB783DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:36:21 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:36:21 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000002489791D300>
+02:36:21 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000024897173BC0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:36:21 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:36:21 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:36:21 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000024897173BC0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:36:35 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:36:35 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x00000140AF7ED300>
+02:36:35 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x00000140AF0C3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:36:35 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:36:35 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:36:35 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x00000140AF0C3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:36:41 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:36:41 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x0000021E5531D300>
+02:36:41 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000021E54B73DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:36:41 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:36:41 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:36:41 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000021E54B73DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:36:44 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:36:44 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000002A16D7ED300>
+02:36:44 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000002A16D0C3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:36:44 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:36:44 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:36:44 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000002A16D0C3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:36:52 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:36:52 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000001FBF65ED300>
+02:36:52 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000001FBF5EC3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:36:52 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:36:52 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:36:52 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000001FBF5EC3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:43:16 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:43:16 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000001F4A3F1DCC0>
+02:43:16 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000001F4A37F3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:43:16 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:43:16 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000001F4A41047B0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:43:16 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:43:16 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:43:16 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000001F4A41047B0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:43:16 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:43:16 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: Votante no registrado en la base de datos, <class 'Exception'>, <traceback object at 0x000001F4A3913500>, se hizo rollback
+02:43:16 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000001F4A37F3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 1>
+02:43:40 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:43:40 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x0000017584D1DC90>
+02:43:40 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000017584623DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:43:40 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:43:40 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000017584F347B0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:43:40 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:43:40 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:43:40 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000017584F347B0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:43:40 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:43:40 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: invalid input syntax for type integer: "General"
+LINE 1: ...mesa_dni, horario, cupo, nombre) VALUES(1, 1, 30, 'General',...
+                                                             ^
+, <class 'psycopg2.errors.InvalidTextRepresentation'>, <traceback object at 0x0000017584F628C0>, se hizo rollback
+02:43:40 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000017584623DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 1>
+02:44:33 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:44:33 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x0000026B6B31DC90>
+02:44:33 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000026B6ABE3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:44:33 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:44:33 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000026B6B4F47B0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:44:33 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:44:33 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:44:33 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000026B6B4F47B0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:44:33 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:44:33 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: invalid input syntax for type integer: "General"
+LINE 1: ...mesa_dni, horario, cupo, nombre) VALUES(1, 1, 30, 'General',...
+                                                             ^
+, <class 'psycopg2.errors.InvalidTextRepresentation'>, <traceback object at 0x0000026B6B5228C0>, se hizo rollback
+02:44:33 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000026B6ABE3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 1>
+02:47:19 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:47:19 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x00000120419EFAC0>
+02:47:19 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x00000120412D3BC0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:47:19 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:47:19 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x00000120412D3AB0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:47:19 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:47:19 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:47:19 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x00000120412D3AB0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:47:19 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:47:19 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: Votante no registrado en la base de datos, <class 'Exception'>, <traceback object at 0x0000012041ADE2C0>, se hizo rollback
+02:47:19 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x00000120412D3BC0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 1>
+02:47:30 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:47:30 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x00000237617ED2D0>
+02:47:30 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x00000237610C3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:47:30 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:47:30 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x00000237619A47B0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:47:30 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:47:30 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:47:30 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x00000237619A47B0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:47:30 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:47:30 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: Votante no registrado en la base de datos, <class 'Exception'>, <traceback object at 0x00000237611E3500>, se hizo rollback
+02:47:30 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x00000237610C3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 1>
+02:47:58 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:47:58 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000001CEADB1DC90>
+02:47:58 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000001CEAD353DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:47:58 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+02:47:58 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000001CEADCD47B0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:47:58 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:47:58 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:47:58 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000001CEADCD47B0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+02:47:58 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+02:47:58 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+02:47:58 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000001CEAD353DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 1>
+04:44:43 AM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: duplicate key value violates unique constraint "votantes_pkey"
+DETAIL:  Key (dni)=(1) already exists.
+, <class 'psycopg2.errors.UniqueViolation'>, <traceback object at 0x000001CF22528640>, se hizo rollback
+04:47:53 AM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: no results to fetch, <class 'psycopg2.ProgrammingError'>, <traceback object at 0x000001EE3D518280>, se hizo rollback
+05:04:38 AM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: no results to fetch, <class 'psycopg2.ProgrammingError'>, <traceback object at 0x00000115AA566540>, se hizo rollback
+05:05:23 AM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'int' object is not callable, <class 'TypeError'>, <traceback object at 0x000001B122A86740>, se hizo rollback
+05:07:12 AM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'psycopg2.extensions.cursor' object has no attribute 'rowcourt', <class 'AttributeError'>, <traceback object at 0x00000201916868C0>, se hizo rollback
+05:07:32 AM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'int' object does not support indexing, <class 'TypeError'>, <traceback object at 0x0000025A52086640>, se hizo rollback
+05:12:02 AM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: tuple index out of range, <class 'IndexError'>, <traceback object at 0x0000017E6A3462C0>, se hizo rollback
+05:27:17 AM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: insert or update on table "turnos" violates foreign key constraint "fk_votantes"
+DETAIL:  Key (dni_votante)=(4) is not present in table "votantes".
+, <class 'psycopg2.errors.ForeignKeyViolation'>, <traceback object at 0x000001BADF740180>, se hizo rollback
+05:29:37 AM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: duplicate key value violates unique constraint "votantes_pkey"
+DETAIL:  Key (dni)=(1) already exists.
+, <class 'psycopg2.errors.UniqueViolation'>, <traceback object at 0x0000021CD216FC00>, se hizo rollback
+05:30:51 AM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: tuple index out of range, <class 'IndexError'>, <traceback object at 0x0000021144868E00>, se hizo rollback
+01:49:52 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: relation "cod_de_mesa" does not exist
+, <class 'psycopg2.errors.UndefinedTable'>, <traceback object at 0x00000233A0686F80>, se hizo rollback
+01:51:08 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: cannot truncate a table referenced in a foreign key constraint
+DETAIL:  Table "turnos" references "mesas".
+HINT:  Truncate table "turnos" at the same time, or use TRUNCATE ... CASCADE.
+, <class 'psycopg2.errors.FeatureNotSupported'>, <traceback object at 0x000001328307B540>, se hizo rollback
+01:57:49 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: cannot truncate a table referenced in a foreign key constraint
+DETAIL:  Table "turnos" references "mesas".
+HINT:  Truncate table "turnos" at the same time, or use TRUNCATE ... CASCADE.
+, <class 'psycopg2.errors.FeatureNotSupported'>, <traceback object at 0x00000153613E3600>, se hizo rollback
+02:01:03 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: relation "cod_de_mesa" does not exist
+, <class 'psycopg2.errors.UndefinedTable'>, <traceback object at 0x0000027C88B2B680>, se hizo rollback
+02:01:20 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: schema "mesas" does not exist
+, <class 'psycopg2.errors.InvalidSchemaName'>, <traceback object at 0x000001D18843B680>, se hizo rollback
+02:01:54 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: cross-database references are not implemented: "public.mesas.cod_de_mesa"
+, <class 'psycopg2.errors.FeatureNotSupported'>, <traceback object at 0x000001FAE0B2B540>, se hizo rollback
+02:03:34 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: cross-database references are not implemented: "public.mesas.cod_de_mesa"
+, <class 'psycopg2.errors.FeatureNotSupported'>, <traceback object at 0x000001DE32B187C0>, se hizo rollback
+05:06:23 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: duplicate key value violates unique constraint "votantes_pkey"
+DETAIL:  Key (dni)=(1) already exists.
+, <class 'psycopg2.errors.UniqueViolation'>, <traceback object at 0x0000029880718A00>, se hizo rollback
+05:06:33 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: duplicate key value violates unique constraint "votantes_pkey"
+DETAIL:  Key (dni)=(1) already exists.
+, <class 'psycopg2.errors.UniqueViolation'>, <traceback object at 0x000001B245BFA480>, se hizo rollback
+05:06:40 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: duplicate key value violates unique constraint "votantes_pkey"
+DETAIL:  Key (dni)=(1) already exists.
+, <class 'psycopg2.errors.UniqueViolation'>, <traceback object at 0x000001B3CB1F8A80>, se hizo rollback
+05:06:51 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: update or delete on table "votantes" violates foreign key constraint "fk_votantes" on table "turnos"
+DETAIL:  Key (dni)=(1) is still referenced from table "turnos".
+, <class 'psycopg2.errors.ForeignKeyViolation'>, <traceback object at 0x000002502D478580>, se hizo rollback
+05:08:19 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: update or delete on table "votantes" violates foreign key constraint "fk_votantes" on table "turnos"
+DETAIL:  Key (dni)=(1) is still referenced from table "turnos".
+, <class 'psycopg2.errors.ForeignKeyViolation'>, <traceback object at 0x00000223ADBE8400>, se hizo rollback
+05:09:43 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: update or delete on table "votantes" violates foreign key constraint "fk_votantes" on table "turnos"
+DETAIL:  Key (dni)=(1) is still referenced from table "turnos".
+, <class 'psycopg2.errors.ForeignKeyViolation'>, <traceback object at 0x000001CEDF2785C0>, se hizo rollback
+05:19:56 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: duplicate key value violates unique constraint "votantes_pkey"
+DETAIL:  Key (dni)=(1) already exists.
+, <class 'psycopg2.errors.UniqueViolation'>, <traceback object at 0x000001FEC49E8A00>, se hizo rollback
+09:04:52 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: duplicate key value violates unique constraint "votantes_pkey"
+DETAIL:  Key (dni)=(1) already exists.
+, <class 'psycopg2.errors.UniqueViolation'>, <traceback object at 0x0000020215518F80>, se hizo rollback
+09:26:46 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: duplicate key value violates unique constraint "votantes_pkey"
+DETAIL:  Key (dni)=(1) already exists.
+, <class 'psycopg2.errors.UniqueViolation'>, <traceback object at 0x000002059D878AC0>, se hizo rollback
+05:49:02 AM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: duplicate key value violates unique constraint "votantes_pkey"
+DETAIL:  Key (dni)=(40816816) already exists.
+, <class 'psycopg2.errors.UniqueViolation'>, <traceback object at 0x0000020B9283A100>, se hizo rollback
+05:49:42 AM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: update or delete on table "votantes" violates foreign key constraint "fk_votantes" on table "turnos"
+DETAIL:  Key (dni)=(1) is still referenced from table "turnos".
+, <class 'psycopg2.errors.ForeignKeyViolation'>, <traceback object at 0x0000029BA1F38A40>, se hizo rollback
+06:16:04 AM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: duplicate key value violates unique constraint "votantes_pkey"
+DETAIL:  Key (dni)=(40816816) already exists.
+, <class 'psycopg2.errors.UniqueViolation'>, <traceback object at 0x00000199F8C39E40>, se hizo rollback

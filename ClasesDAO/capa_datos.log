@@ -1,0 +1,98 @@
+04:20:19 AM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+04:20:19 AM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x0000024D3011FE80>
+04:20:19 AM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000024D2FA23DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+04:20:19 AM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+04:20:19 AM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+04:20:19 AM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000024D2FA23DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+08:26:22 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+08:26:22 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x00000274C1593AC0>
+08:26:22 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x00000274C1313DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+08:26:22 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+08:26:22 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+08:26:22 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x00000274C1313DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+08:27:04 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+08:27:04 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000001C65B993AC0>
+08:27:04 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000001C65B713DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+08:27:04 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+08:27:04 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+08:27:04 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000001C65B713DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+08:28:24 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+08:28:24 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x000002AF50E13AC0>
+08:28:24 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x000002AF506D3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+08:28:24 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+08:28:24 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+08:28:24 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x000002AF506D3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+08:28:47 PM: DEBUG [cursorDelPool.py:11] Inicio del metodo with __enter__
+08:28:47 PM: DEBUG [conexion.py:24] Creacion del pool existosa <psycopg2.pool.SimpleConnectionPool object at 0x0000016F44143AC0>
+08:28:47 PM: DEBUG [conexion.py:33] Conexion obtenida del pool: <connection object at 0x0000016F439E3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+08:28:47 PM: DEBUG [cursorDelPool.py:17] Se ejecuta metodo __exit__
+08:28:47 PM: DEBUG [cursorDelPool.py:24] Commit de la transaccion
+08:28:47 PM: DEBUG [conexion.py:39] Regresamos la conexion al pool: <connection object at 0x0000016F439E3DE0; dsn: 'user=postgres password=xxx dbname=SistemaDeTurnos host=localhost port=5432', closed: 0>
+08:41:10 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'int' object does not support indexing, <class 'TypeError'>, <traceback object at 0x000002398936E940>, se hizo rollback
+09:22:29 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'tuple' object does not support item assignment, <class 'TypeError'>, <traceback object at 0x000001CB7FA6E780>, se hizo rollback
+09:23:10 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'bool' object does not support item assignment, <class 'TypeError'>, <traceback object at 0x000002366B46E740>, se hizo rollback
+09:23:28 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'tuple' object does not support item assignment, <class 'TypeError'>, <traceback object at 0x00000213AA60BB00>, se hizo rollback
+09:25:26 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: tuple index out of range, <class 'IndexError'>, <traceback object at 0x0000020A4A66EFC0>, se hizo rollback
+09:29:14 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'bool' object does not support indexing, <class 'TypeError'>, <traceback object at 0x000002564274E880>, se hizo rollback
+09:29:34 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: tuple index out of range, <class 'IndexError'>, <traceback object at 0x0000029F1786EFC0>, se hizo rollback
+09:31:26 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: operator does not exist: integer = boolean
+LINE 1: UPDATE votantes SET es_pres_de_mesa=1 WHERE dni=true
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+, <class 'psycopg2.errors.UndefinedFunction'>, <traceback object at 0x0000014A7330EDC0>, se hizo rollback
+09:31:54 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante ya es presidente de una mesa, <class 'Exception'>, <traceback object at 0x0000027B66C6EDC0>, se hizo rollback
+09:37:42 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x00000186DD06EF80>, se hizo rollback
+09:38:10 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000001C27306EFC0>, se hizo rollback
+09:39:54 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000002C2C6A6F500>, se hizo rollback
+09:39:54 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000002C2C6A6E7C0>, se hizo rollback
+09:41:12 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: operator does not exist: integer = boolean
+LINE 1: UPDATE votantes SET es_pres_de_mesa=1 WHERE dni=true
+                                                       ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+, <class 'psycopg2.errors.UndefinedFunction'>, <traceback object at 0x000002ADAB30F700>, se hizo rollback
+09:43:55 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000001B82A30F900>, se hizo rollback
+09:43:55 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000001B82A30E900>, se hizo rollback
+09:43:55 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000001B82A30E880>, se hizo rollback
+09:44:28 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'Exception' object is not subscriptable, <class 'TypeError'>, <traceback object at 0x0000024E1772E900>, se hizo rollback
+09:44:28 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'Exception' object is not subscriptable, <class 'TypeError'>, <traceback object at 0x0000024E1772E880>, se hizo rollback
+09:45:09 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000001923606FA00>, se hizo rollback
+09:45:09 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x0000019235D0F4C0>, se hizo rollback
+09:45:09 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x0000019236044DC0>, se hizo rollback
+09:46:15 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x0000022B9830FA40>, se hizo rollback
+09:46:15 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x0000022B9826ABC0>, se hizo rollback
+09:46:15 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x0000022B9830EAC0>, se hizo rollback
+09:51:57 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x0000021680D3FA40>, se hizo rollback
+09:51:57 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x0000021680C6ABC0>, se hizo rollback
+09:51:57 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x0000021680D3EAC0>, se hizo rollback
+09:53:54 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x00000180AA66FA00>, se hizo rollback
+09:53:54 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x00000180AA33F4C0>, se hizo rollback
+09:53:54 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x00000180AA644DC0>, se hizo rollback
+09:54:54 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'NoneType' object is not subscriptable, <class 'TypeError'>, <traceback object at 0x0000021A5256ACC0>, se hizo rollback
+09:54:54 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'NoneType' object is not subscriptable, <class 'TypeError'>, <traceback object at 0x0000021A5256AC00>, se hizo rollback
+09:56:01 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'NoneType' object is not subscriptable, <class 'TypeError'>, <traceback object at 0x000002AB5C13EC00>, se hizo rollback
+09:56:01 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'NoneType' object is not subscriptable, <class 'TypeError'>, <traceback object at 0x000002AB5C13EB40>, se hizo rollback
+09:57:09 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'NoneType' object is not subscriptable, <class 'TypeError'>, <traceback object at 0x0000022B34672B40>, se hizo rollback
+09:57:09 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'NoneType' object is not subscriptable, <class 'TypeError'>, <traceback object at 0x0000022B34672AC0>, se hizo rollback
+09:57:43 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'NoneType' object is not subscriptable, <class 'TypeError'>, <traceback object at 0x00000240B7873740>, se hizo rollback
+09:57:43 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'NoneType' object is not subscriptable, <class 'TypeError'>, <traceback object at 0x00000240B7872B00>, se hizo rollback
+10:03:58 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x00000157DD10F800>, se hizo rollback
+10:03:58 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x00000157DD10E840>, se hizo rollback
+10:03:58 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x00000157DD10E780>, se hizo rollback
+10:14:18 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000001C3DCD2FA00>, se hizo rollback
+10:14:18 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000001C3DCC3F4C0>, se hizo rollback
+10:14:18 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000001C3DCD05880>, se hizo rollback
+10:14:26 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000001FF4A50F940>, se hizo rollback
+10:14:26 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000001FF4A43F4C0>, se hizo rollback
+10:14:26 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000001FF4A4E58C0>, se hizo rollback
+10:15:38 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000002BC02D0FA00>, se hizo rollback
+10:15:38 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000002BC02C3F4C0>, se hizo rollback
+10:15:38 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000002BC02CE5880>, se hizo rollback
+10:16:01 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000001D9F386F900>, se hizo rollback
+10:16:01 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000001D9F386E880>, se hizo rollback
+10:16:01 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: El votante no se encuentra en la base de datos, <class 'Exception'>, <traceback object at 0x000001D9F386E7C0>, se hizo rollback
+11:22:31 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'int' object does not support indexing, <class 'TypeError'>, <traceback object at 0x000001D79F232100>, se hizo rollback
+11:22:31 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'int' object does not support indexing, <class 'TypeError'>, <traceback object at 0x000001D79F014640>, se hizo rollback
+11:22:50 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'int' object does not support indexing, <class 'TypeError'>, <traceback object at 0x000001F2EF118440>, se hizo rollback
+11:22:50 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'int' object does not support indexing, <class 'TypeError'>, <traceback object at 0x000001F2EF118380>, se hizo rollback
+11:22:58 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'int' object does not support indexing, <class 'TypeError'>, <traceback object at 0x0000015D88438440>, se hizo rollback
+11:22:58 PM: ERROR [cursorDelPool.py:20] Ocurrio una excepcion: 'int' object does not support indexing, <class 'TypeError'>, <traceback object at 0x0000015D8833F1C0>, se hizo rollback
